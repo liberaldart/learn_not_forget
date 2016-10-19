@@ -20,6 +20,7 @@ var http_1 = require('@angular/http');
 var router_1 = require('@angular/router');
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
 var in_memory_data_service_1 = require('./in-memory-data.service');
+var core_2 = require('@angular2-material/core');
 var heroes_component_1 = require('./HeroesComponent/heroes.component');
 var hero_detail_component_1 = require('./HeroDetailComponent/hero-detail.component');
 var app_component_1 = require('./AppComponent/app.component');
@@ -35,6 +36,7 @@ var AppModule = (function () {
                 http_1.HttpModule,
                 forms_1.FormsModule,
                 angular_in_memory_web_api_1.InMemoryWebApiModule.forRoot(in_memory_data_service_1.InMemoryDataService),
+                core_2.MdCoreModule.forRoot(),
                 router_1.RouterModule.forRoot([
                     {
                         path: 'heroes',
