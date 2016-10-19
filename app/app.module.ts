@@ -12,6 +12,7 @@ import { RouterModule }   from '@angular/router';
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 import { MdCoreModule } from '@angular2-material/core';
+import { MdButtonModule } from '@angular2-material/button';
 
 import { HeroesComponent }   from './HeroesComponent/heroes.component';
 import { HeroDetailComponent } from './HeroDetailComponent/hero-detail.component';
@@ -30,6 +31,7 @@ import { DashboardComponent } from './DashboardComponent/dashboard.component';
     FormsModule,
     InMemoryWebApiModule.forRoot(InMemoryDataService),
     MdCoreModule.forRoot(),
+    MdButtonModule.forRoot(),
     RouterModule.forRoot([
       {
         path: 'heroes',

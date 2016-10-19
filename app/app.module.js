@@ -21,6 +21,7 @@ var router_1 = require('@angular/router');
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
 var in_memory_data_service_1 = require('./in-memory-data.service');
 var core_2 = require('@angular2-material/core');
+var button_1 = require('@angular2-material/button');
 var heroes_component_1 = require('./HeroesComponent/heroes.component');
 var hero_detail_component_1 = require('./HeroDetailComponent/hero-detail.component');
 var app_component_1 = require('./AppComponent/app.component');
@@ -37,6 +38,7 @@ var AppModule = (function () {
                 forms_1.FormsModule,
                 angular_in_memory_web_api_1.InMemoryWebApiModule.forRoot(in_memory_data_service_1.InMemoryDataService),
                 core_2.MdCoreModule.forRoot(),
+                button_1.MdButtonModule.forRoot(),
                 router_1.RouterModule.forRoot([
                     {
                         path: 'heroes',
