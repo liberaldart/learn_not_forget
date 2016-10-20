@@ -14,6 +14,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
 import { MdCoreModule } from '@angular2-material/core';
 import { MdButtonModule } from '@angular2-material/button';
 import { MdIconModule } from '@angular2-material/icon';
+import { MdToolbarModule } from '@angular2-material/toolbar';
+import { MdTabsModule } from '@angular2-material/tabs';
 
 import { HeroesComponent }   from './HeroesComponent/heroes.component';
 import { HeroDetailComponent } from './HeroDetailComponent/hero-detail.component';
@@ -34,6 +36,8 @@ import { DashboardComponent } from './DashboardComponent/dashboard.component';
     MdCoreModule.forRoot(),
     MdButtonModule.forRoot(),
     MdIconModule.forRoot(),
+    MdToolbarModule.forRoot(),
+    MdTabsModule.forRoot(),
     RouterModule.forRoot([
       {
         path: 'heroes',

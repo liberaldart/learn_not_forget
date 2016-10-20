@@ -16,7 +16,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n    <h1>{{title}}</h1>\n    <nav>\n      <a routerLink=\"/dashboard\" routerLinkActive=\"active\">Dashboard</a>\n      <a routerLink=\"/heroes\" routerLinkActive=\"active\">Activities</a>\n    </nav>\n    <!--we call this type of component a Router Component. -->\n    <router-outlet></router-outlet>\n  ",
+            template: "\n    <md-toolbar [color]=\"accent\">\n      <span>Your Zone-In activities</span>\n      \n      <md-toolbar-row>\n        <nav>\n          <a routerLink=\"/dashboard\" routerLinkActive=\"active\">Dashboard</a>\n          <a routerLink=\"/heroes\" routerLinkActive=\"active\">Activities</a>\n        </nav>\n      </md-toolbar-row>\n    </md-toolbar>\n    <!--we call this type of component a Router Component. -->\n    <router-outlet></router-outlet>\n  ",
             styleUrls: ['app.component.css']
         }), 
         __metadata('design:paramtypes', [])

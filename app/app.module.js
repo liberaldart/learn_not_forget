@@ -23,6 +23,8 @@ var in_memory_data_service_1 = require('./in-memory-data.service');
 var core_2 = require('@angular2-material/core');
 var button_1 = require('@angular2-material/button');
 var icon_1 = require('@angular2-material/icon');
+var toolbar_1 = require('@angular2-material/toolbar');
+var tabs_1 = require('@angular2-material/tabs');
 var heroes_component_1 = require('./HeroesComponent/heroes.component');
 var hero_detail_component_1 = require('./HeroDetailComponent/hero-detail.component');
 var app_component_1 = require('./AppComponent/app.component');
@@ -41,6 +43,8 @@ var AppModule = (function () {
                 core_2.MdCoreModule.forRoot(),
                 button_1.MdButtonModule.forRoot(),
                 icon_1.MdIconModule.forRoot(),
+                toolbar_1.MdToolbarModule.forRoot(),
+                tabs_1.MdTabsModule.forRoot(),
                 router_1.RouterModule.forRoot([
                     {
                         path: 'heroes',

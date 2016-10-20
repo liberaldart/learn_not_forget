@@ -30,6 +30,8 @@
     "@angular2-material/card": "^2.0.0-alpha.8-2",
     "@angular2-material/core": "^2.0.0-alpha.8-2",
     "@angular2-material/icon": "^2.0.0-alpha.8-2",
+    "@angular2-material/tabs": "^2.0.0-alpha.8-2",
+    "@angular2-material/toolbar": "^2.0.0-alpha.8-2",
     "angular-in-memory-web-api": "~0.1.5",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
